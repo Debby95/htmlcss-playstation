@@ -30,3 +30,8 @@ a {
 .jb-text {
     padding-top: 200px;
 }
+
+.card {
+    width: 100%;
+    border-radius: 20px;
+}
