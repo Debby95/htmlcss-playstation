@@ -16,3 +16,17 @@ a {
 .search {
     width: 30px;
 }
+
+.jumbotron {
+    background-image: url(img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    border: 1px dashed red;
+}
+
+.jb-text {
+    padding-top: 200px;
+}
