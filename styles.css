@@ -3,11 +3,11 @@
     --blue: #12153b;
 }
 
-header {
-    font-family: serif;
+.sony-logo {
+    width: 5%;
 }
 
-nav {
+* {
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,6 +16,14 @@ a {
     color: black;
     padding-right: 10px;
     padding-left: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 10px;
 }
 
 .search {
@@ -68,6 +76,8 @@ a {
 .blue {
     background-color: var(--blue);
 }
+
+
 
 
 
