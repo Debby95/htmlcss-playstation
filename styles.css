@@ -19,7 +19,7 @@ a {
 
 .jumbotron {
     background-image: url(img/jumbo-bg.png);
-    background-position: center;
+    background-position: top;
     background-size: cover;
 }
 
