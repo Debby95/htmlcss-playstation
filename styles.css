@@ -4,7 +4,7 @@
 }
 
 .sony-logo {
-    width: 5%;
+    width: 80px;
 }
 
 * {
@@ -75,6 +75,10 @@ li {
 
 .blue {
     background-color: var(--blue);
+}
+
+.globe {
+    width: 20px;
 }
 
 
