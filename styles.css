@@ -23,7 +23,7 @@ a {
     background-size: cover;
 }
 
-.container .row {
+.container {
     border: 1px dashed red;
 }
 
@@ -35,12 +35,18 @@ a {
     border-radius: 20px;
 }
 
-.col-lg-2 {
+.col-lg {
     border: 1px dashed red;
 }
 
 .padding-bottom {
     padding-top: 160px;
+}  
+
+.bg-it-takes-two {
+    background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
 
