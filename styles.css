@@ -26,21 +26,32 @@ li {
     --blue: #12153b;
 }
 
+.grey {
+    background-color: var(--gray);
+}
+
+.blue {
+    background-color: var(--blue);
+}
+
 .sony-logo {
     width: 80px;
+}
+
+.lens {
+    width: 30px;
+}
+
+.globe {
+    width: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link {
     color: rgb(0, 0, 0);
 }
 
-
 .nav-link {
     color: #050505;
-}
-
-.lens {
-    width: 30px;
 }
 
 .jumbotron {
@@ -55,43 +66,35 @@ li {
     background-size: cover;
 }
 
-.container {
-    /*debug*/
-    border: 1px dashed red;
+.card {
+    border-radius: 20px;
+    border: none;
 }
 
 .jb-text {
     padding-top: 200px;
 }
 
-.card {
-    border-radius: 20px;
-    border: none;
-}
-
-.col-lg {
-    /*debug*/
-    border: 1px dashed red;
-}
-
-.padding-bottom {
-    padding-top: 160px;
-}  
-
 .monthly-games {
     min-height: 375px;
 }
 
-.grey {
-    background-color: var(--gray);
+.bb {
+    border-bottom: 3px solid;
 }
 
-.blue {
-    background-color: var(--blue);
-}
+@media (max-width: 576px) {
+    .col-xs-6 {
+        flex-basis: calc(100% / 2);
+    }
 
-.globe {
-    width: 20px;
+    .col-xs-4 {
+        flex-basis: calc(100% / 3);
+    }
+
+    .d-sm-none {
+        display: none;
+    }
 }
 
 
